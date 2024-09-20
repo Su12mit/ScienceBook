@@ -1,0 +1,627 @@
+
+body {font-family: Arial, Helvetica, sans-serif;
+        background-size:cover;  }
+
+.navbar {
+  width: 100%;
+  background-color: #008900;
+  overflow: auto;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #31d186;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.openBtn {
+  background:none;
+  border: none;
+  width: 100px;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: rgb(0, 0, 0);
+}
+
+.search1 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: none;
+  background-color:rgba(0, 0, 0, 0.712);
+}
+
+.search2{
+  position: relative;
+  top: 40%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.search1 .closebtn1 {
+  position: absolute;
+  top: 2px;
+  right: 30px;
+  font-size: 60px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.search1 .closebtn1:hover {
+  color: rgb(158, 157, 157);
+}
+
+.search1 input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  height: 7%;
+  background: white;
+}
+
+.search1 input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.search1 button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: rgb(6, 110, 228);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search1 button:hover {
+  background: rgb(6, 120, 228);
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+.imgcontainer {
+  text-align: center;
+  margin: 20px 0 10px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+.text2{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+ input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:#65b440;
+  color: white;
+  padding: 13px;
+  margin:  0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: #000;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container1 {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  color: red;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 20%;
+  top: -5%;
+  width: 60%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: none; /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal1 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid rgb(170, 170, 170);
+  width: 60%; /* Could be more or less, depending on screen size */
+  height: 80%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.3s;
+  animation: animatezoom 0.3s;
+  
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+}
+
+.navbar1 {
+    width: 100%;
+    height: 20%;
+    background:linear-gradient(#00a900,#008900);
+    left: 0%;
+    top: 6.5%;
+    position: absolute;
+}
+.active1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -22%;
+}
+.dropbtn {
+    background-color: #fc0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #000000;
+  }
+  
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    top: 12%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: rgb(131, 131, 131);}
+  
+  .show {display: block;}
+  
+  
+  
+.navbar2 {
+    width: 100%;
+    height: 27%;
+    background:linear-gradient(#ef6f0a,#d4440d);
+    left: 0%;
+    top: 26%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+h1{
+    position: absolute;
+    left: 40%;
+    top: 16%;
+    font-size: 40px;
+    color: white;
+}
+
+h4{
+    position: absolute;
+    left: 37%;
+    top: 55%;
+    color: white;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;
+        height: 400px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+  top: 60%;
+  right: 15%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.6s;
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.navbar3 {
+    width: 30%;
+    height: 90%;
+    background-color: rgb(240, 240, 240);
+    right: 0%;
+    top: 53%;
+    border-left: 1px solid rgb(219, 219, 219);
+    overflow-y: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+.navbar3 h2{
+    position: absolute;
+    color: #000;
+    left: 8%;
+    background: fixed;
+    top: 4%;
+    font-size: 25px;
+}
+.btn1 input[type="Submit"]{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    background-color: #31d186;
+    width: 130px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f2f2f2;
+    height: 90px;
+    border: none;
+    border-radius: 5px;
+}
+.btn1 input[type="Submit"]:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.btn2 input[type="Submit"]{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    
+    background-color: #31d186;
+    width: 130px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f2f2f2;
+    height: 90px;
+    border: none;
+    border-radius: 5px;
+}
+.btn2 input[type="Submit"]:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.btn3 input[type="Submit"]{
+  position: absolute;
+  top: 40%;
+  left: 33%;
+
+  background-color: #31d186;
+  width: 130px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #f2f2f2;
+  height: 90px;
+  border: none;
+  border-radius: 5px;
+}
+.btn3 input[type="Submit"]:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+video{
+  position: absolute;
+  top: 58%;
+  left: 5%;
+
+}
+.box{
+  position: absolute;
+  top: 110%;
+  width: 30%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 330%;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.box1{
+  position: absolute;
+  top: 140%;
+  width: 30%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 330%;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.block {
+  position: absolute;
+  top: 165%;
+  display: block;
+  width: 85%;
+  border: none;
+  background-color: rgb(50, 133, 30);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.container{
+  position: absolute;
+  top: 125%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: -74%;
+  left: 0%;
+  background-color: rgb(6, 9, 34);
+}
+.footer a{
+  position: absolute;
+  left: 30%;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+.footer a:hover{
+  background-color: rgb(104, 100, 100);
+  color: rgb(0, 0, 0);
+}
+.foot{
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+h3{
+  color: white;
+}
+.foot p{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.foot p:hover{
+  color: red;
+}
+.foot1{
+  position: absolute;
+  bottom: 60%;
+  right: 10%;
+}
+.text1{
+  width: 400px;
+  height: 30px;
+  background-color:rgb(6, 9, 34) ;
+  border-bottom:2px solid rgb(110, 110, 110);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+input[type="button"]{
+  position: absolute;
+  bottom: -65%;
+  right: 31%;
+  width: 110px;
+  height: 40px;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(255, 0, 0);
+}
+input[type="button"]:hover{
+  background-color: rgb(145, 124, 5);
+}
+

@@ -1,0 +1,120 @@
+<html>
+    <style>
+.for{
+    background-color: #fefefe;
+  margin: 0% auto 0% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+  height: 100%;
+}
+
+.box{
+    background:linear-gradient(#00a900,#008900);
+    width: 100%;
+    height: 20%;
+}
+.src{
+    width: 200px;
+    height: 200px;
+
+}
+.box1{
+    background: linear-gradient(#ef6f0a,#d4440d);
+    width: 100%;
+    height: 8%;
+}
+h1{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+input[type="email"]{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    width: 50%;
+    height: 6%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background:rgb(236, 235, 235) ;
+    font-size: 18px;
+    border-bottom: 2px solid rgb(70, 70, 70);
+}
+b{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+.box3{
+    position: absolute;
+    top: 28%;
+    background: rgb(236, 235, 235);
+    width: 79.1%;
+    height: 70%;
+}
+.feed{
+    position: absolute;
+    width: 850px;
+    height:80px;
+    left: 10%;
+    font-size: 22px;
+    top: 33%;
+    border: none;
+}
+input[type="submit"]{
+    position: absolute;
+    bottom: 1.1%;
+    width: 40%;
+    height: 7%;
+    background-color: #e40d0d;
+    border: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    right: 10.4%;
+}
+
+button[type="clear"]{
+    position: absolute;
+    bottom: 1.1%;
+    width: 40%;
+    height: 7%;
+    background-color: #2f8d18;
+    border: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    left: 10.4%;
+}
+button[type="clear"]:hover{
+    background-color: rgb(17, 17, 17);
+}
+input[type="submit"]:hover{
+    background-color: rgb(17, 17, 17);
+}
+        </style>
+    <body>
+       <form action="./mysql/feedback.php" method="post" class="for">
+        <div class="box">
+            <img src="logo4.png" class="src">
+        </div>
+        <div class="box1">
+            <h1>Feedback Form</h1>
+        </div>
+        <div class="box3">
+            <b>Email</b><input type="email" name="email" placeholder="Enter your email">
+        <textarea id="subject" class="feed" name="subject" placeholder="Write something.." style="height:200px"></textarea>  
+        </div>
+            <input type="submit" value="Submit">
+            <button type="clear" >Reset</button>
+       </form> 
+    </body>
+</html>

@@ -1,0 +1,652 @@
+body{
+    background-color: rgb(212, 211, 211);
+    background-size: cover;
+}
+.navbar {
+    width: 100%;
+    height: 8%;
+    background-color: #008900;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+  }
+ 
+.navbar .openBtn {
+    background:none;
+    border: none;
+    position: relative;
+    left: 91%;
+    width: 100px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+  
+  .openBtn:hover {
+    color:  #fc0;
+  }
+  
+  .search1 {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: none;
+    background-color:rgba(0, 0, 0, 0.712);
+  }
+  
+  .search2{
+    position: relative;
+    top: 40%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  .search1 .closebtn1 {
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  
+  .search1 .closebtn1:hover {
+    color: rgb(158, 157, 157);
+  }
+  
+  .search1 input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    height: 7%;
+    background: white;
+  }
+  
+  .search1 input[type=text]:hover {
+    background: #f1f1f1;
+  }
+  
+  .search1 button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: rgb(6, 110, 228);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search1 button:hover {
+    background: rgb(6, 120, 228);
+  }
+  
+.dropbtn {
+    color: white;
+    font-size: 22px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    letter-spacing: 2px;
+  }
+  
+  .dropbtn:hover {
+    color: #fc0;
+    
+  }
+  
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    right: 16%;
+    top: 18%;
+  }
+  
+    
+  
+  .navbar1 {
+    width: 70%;
+    padding-left: 30%;
+    background:linear-gradient(#00a900,#008900); 
+    height: 20%;
+    position: absolute;
+    top: 8%;
+    left: 0%;
+  }
+
+  
+.active1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -22%;
+    right: 105%;
+}
+  
+  .navbar1 a {
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 16px;
+    text-decoration-color: #fc0;
+    line-height: 90px;
+    letter-spacing: 2px;
+    padding: 18px;
+    
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 22px;  
+    border: none;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-decoration-color: #fc0;
+    background-color: inherit;
+    font-family: inherit;
+    line-height: 90px;
+    margin: 0;
+    padding: 18px;
+  }
+  
+  .navbar1 a:hover, .subnav .subnavbtn:hover {
+    background-color: none;
+    color: #fc0;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-left: 0%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    position: relative;
+    left: 35%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color:none;
+    text-decoration: 5px solid underline;
+    text-decoration-color: #fc0;
+    color:black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+h2{
+  position: absolute;
+  top: 32%;
+  left: 17%;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar2{
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  top: 52%;
+  left: 0%;
+  background: -webkit-gradient(linear,left top,left bottom,from(#00a0ce),to(#007bc8));
+  background:linear-gradient(#00a0ce,#007bc8);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  display: block;
+}
+.img1{
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: -15%;
+}
+.avatar2{
+  width: 15%;
+  top: 2%;
+  padding-left: 8px;
+  position: relative;
+  left: 10%;
+  
+}
+.avatar2:hover{
+  opacity: 0.5;
+  transition: .25s;
+}  
+.caption{
+  display: inline-block;
+}
+.cap1{
+  position: absolute;
+  display: inline-block;
+  left: 10.5%;
+  top: 17%;
+}
+
+.cap2{
+  position: absolute;
+  display: inline-block;
+  left: 26.5%;
+  top: 17%;
+}
+
+.cap3{
+  position: absolute;
+  display: inline-block;
+  left: 42.5%;
+  top: 17%;
+}
+
+.cap4{
+  position: absolute;
+  display: inline-block;
+  left: 58.5%;
+  top: 17%;
+}
+
+.cap5{
+  position: absolute;
+  display: inline-block;
+  left: 74.5%;
+  top: 17%;
+}
+.cap1, .cap2, .cap3, .cap4, .cap5{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.cap1:hover, .cap2:hover, .cap3:hover, .cap4:hover, .cap5:hover{
+  color: black;
+
+}
+.container {
+  position: absolute;
+  left: 2.5%;
+  top: 25%;
+  display: none;
+  background: none;
+  font-size: 22px;
+  letter-spacing: 1px;
+  
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: -8%;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.p1{
+  color: white;
+  position: absolute;
+  top: 87%;
+  left: 43%;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+font-family: inherit;
+border-bottom: 4px solid #fc0;
+}
+.p2{
+  position: absolute;
+  bottom: -125%;
+  left: 46%;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.block1{
+  display: inline-block;
+  position: absolute;
+  top: 226%;
+}
+.avatar3{
+  width: 22.5%;
+  padding-top: 4%;
+  position: relative;
+  left: 0%;
+  padding: 12px;
+  opacity: 1;
+}
+.avatar3:hover{
+  opacity: 0.7;
+}
+.caption1{
+  display: inline-block;
+}
+.b1{
+  position: absolute;
+  display: inline-block;
+  left: 1%;
+  top: 102%;
+}
+
+.b2{
+  position: absolute;
+  display: inline-block;
+  left: 25.5%;
+  top: 102%;
+}
+
+.b3{
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 102%;
+}
+
+.b4{
+  position: absolute;
+  display: inline-block;
+  left: 75%;
+  top: 102%;
+}
+.b1, .b2, .b3, .b4{
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+
+.p3{
+  position: absolute;
+  bottom: -187%;
+  left: 44%;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.block2{
+  display: inline-block;
+  position: absolute;
+  top: 286%;
+}
+
+.avatar4A{
+  width: 300px;
+  height: 190px;
+  padding-top: 4%;
+  position: relative;
+  left: 17.5%;
+  padding: 12px;
+  opacity: 1;
+}
+.avatar4A:hover{
+  opacity: 0.7;
+}
+.avatar4{
+  width: 300px;
+  padding-top: 4%;
+  position: relative;
+  left: 18%;
+  padding: 12px;
+  opacity: 1;
+}
+.avatar4:hover{
+  opacity: 0.7;
+}
+
+.caption2{
+  display: inline-block;
+}
+.b5{
+  position: absolute;
+  display: inline-block;
+  left: 18.5%;
+  top: 102%;
+}
+
+.b6{
+  position: absolute;
+  display: inline-block;
+  left: 52.5%;
+  top: 102%;
+}
+
+.b7{
+  position: absolute;
+  display: inline-block;
+  left: 86%;
+  top: 102%;
+}
+
+.b5, .b6, .b7{
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+}
+.navbar3{
+  position: absolute;
+  top: 335%;
+  background:linear-gradient(#00a900,#008900);
+  width: 100%;
+  left: 0%;
+  height: 100%;
+}
+.mySlides {
+  display: block; 
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: 0;
+  top: 18%;
+  left: 23%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 20%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.p4{
+  position: absolute;
+  top: 2%;
+  left: 39%;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: -38%;
+  left: 0%;
+  background-color: rgb(255, 255, 255);
+}
+.footer a{
+  position: absolute;
+  left: 30%;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.footer a:hover{
+  background-color: rgb(104, 100, 100);
+  color: white;
+}
+.foot{
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+h3{
+  color: rgb(0, 0, 0);
+}
+.foot p{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.foot p:hover{
+  color: red;
+  text-decoration: underline;
+}
+.foot1{
+  position: absolute;
+  bottom: 60%;
+  right: 10%;
+}
+input[type="text"]{
+  width: 400px;
+  height: 30px;
+  background-color:rgb(255, 255, 255) ;
+  border-bottom:2px solid rgb(110, 110, 110);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  
+}
+input[type="button"]{
+  position: absolute;
+  bottom: -28%;
+  right: 31%;
+  width: 110px;
+  height: 40px;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(255, 0, 0);
+}
+input[type="button"]:hover{
+  background-color: rgb(145, 124, 5);
+}
